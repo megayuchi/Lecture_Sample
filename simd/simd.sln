@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simd", "simd.vcxproj", "{DEE001D3-9936-4B16-8157-1894D805B297}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEE001D3-9936-4B16-8157-1894D805B297}.Debug|x64.ActiveCfg = Debug|x64
+		{DEE001D3-9936-4B16-8157-1894D805B297}.Debug|x64.Build.0 = Debug|x64
+		{DEE001D3-9936-4B16-8157-1894D805B297}.Debug|x86.ActiveCfg = Debug|Win32
+		{DEE001D3-9936-4B16-8157-1894D805B297}.Debug|x86.Build.0 = Debug|Win32
+		{DEE001D3-9936-4B16-8157-1894D805B297}.Release|x64.ActiveCfg = Release|x64
+		{DEE001D3-9936-4B16-8157-1894D805B297}.Release|x64.Build.0 = Release|x64
+		{DEE001D3-9936-4B16-8157-1894D805B297}.Release|x86.ActiveCfg = Release|Win32
+		{DEE001D3-9936-4B16-8157-1894D805B297}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3205490E-ADCA-467D-B564-1032D626D6FC}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://daikon.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = simd.vcxproj
+		SccLocalPath1 = .
+	EndGlobalSection
+EndGlobal
