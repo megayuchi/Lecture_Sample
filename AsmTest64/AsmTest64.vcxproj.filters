@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="reference">
+      <UniqueIdentifier>{a7349bdb-b3e1-4d1f-a08a-01d8f34b0744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{8a9dd8a9-5d07-49eb-b75f-a42a64dcc262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{da348360-5341-4299-8711-3cc52f000115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASM">
+      <UniqueIdentifier>{05d3fc23-107b-4954-8ee1-d0ee7e6bd25d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Typedef">
+      <UniqueIdentifier>{6ce69315-f096-45ea-bd84-eb2be3a785de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP">
+      <UniqueIdentifier>{6949e997-0425-47ad-93e1-0097c18618f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{06eb7862-029b-4b3a-a446-2d711b6c7988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VirtualObject">
+      <UniqueIdentifier>{464fada4-ea33-4ac6-a238-2d661e192480}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCpp.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="MathCPP.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryPerfCounter .cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualObject.cpp">
+      <Filter>VirtualObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestCpp.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="MathCPP.h">
+      <Filter>CPP</Filter>
+    </ClInclude>
+    <ClInclude Include="MathASM.h">
+      <Filter>ASM</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryPerfCounter.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualObject.h">
+      <Filter>VirtualObject</Filter>
+    </ClInclude>
+    <ClInclude Include="IVirtualObject.h">
+      <Filter>VirtualObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="MathASM.asm">
+      <Filter>ASM</Filter>
+    </MASM>
+    <MASM Include="TestASM.asm">
+      <Filter>ASM</Filter>
+    </MASM>
+    <MASM Include="FillString.asm">
+      <Filter>ASM</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TestASM.inc">
+      <Filter>ASM</Filter>
+    </None>
+    <None Include="math_type.inc">
+      <Filter>ASM</Filter>
+    </None>
+    <None Include="math.inl">
+      <Filter>Typedef</Filter>
+    </None>
+  </ItemGroup>
+</Project>
